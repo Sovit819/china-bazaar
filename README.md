@@ -6,7 +6,7 @@ This is a Next.js-based e-commerce application frontend, featuring a responsive 
 
 1.  **Clone the repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Sovit819/china-bazaar.git
     cd china-bazaar
     ```
 

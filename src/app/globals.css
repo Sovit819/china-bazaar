@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors - using lowercase for better compatibility */
+  --color-primary-brand: #5A63EF;
+  --color-primary-brand-soft: #7C8BFF;
+  --color-primary-surface: #CDD6FF;
+  --color-primary-surface-alt: #E0F3FB;
+
+  --color-secondary-brand: #FFC20E;
+  --color-secondary-brand-soft: #F4CF10;
+  --color-secondary-surface: #F6E152;
+  --color-secondary-surface-alt: #FFF8AD;
+
+  --color-neutral-n900: #111111;
+  --color-neutral-n800: #1E1E1E;
+  --color-neutral-n700: #343434;
+  --color-neutral-n600: #565656;
+  --color-neutral-n500: #757575;
+  --color-neutral-n400: #969696;
+  --color-neutral-n300: #B0B0B0;
+  --color-neutral-n200: #C6C6C6;
+  --color-neutral-n100: #DEDEDE;
+  --color-neutral-n50: #F8F8F8;
+  --color-neutral-white: #FFFFFF;
+
+  --color-success-text: #00C889;
+  --color-success-surface: #F1FFFB;
+
+  --color-error-text: #FF3F3F;
+  --color-error-surface: #FFF8F8;
+
+
+  /* Font weights */
+  --font-weight-light: 300;
+  --font-weight-book: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+}
+
+/* Typography Utilities - bundling size, height, and spacing */
+@utility text-h1 {
+  font-size: 46px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h2 {
+  font-size: 42px;
+  line-height: 130%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h3 {
+  font-size: 38px;
+  line-height: 135%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h4 {
+  font-size: 34px;
+  line-height: 135%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h5 {
+  font-size: 30px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-h6 {
+  font-size: 26px;
+  line-height: 145%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-subtitle01 {
+  font-size: 22px;
+  line-height: 147%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-subtitle02 {
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-body-large {
+  font-size: 18px;
+  line-height: 142%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-body-medium {
+  font-size: 16px;
+  line-height: 142%;
+  letter-spacing: -0.03em;
+}
+
+@utility text-body-small {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+}
+
+@utility text-body-xs {
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: -0.04em;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}

@@ -46,7 +46,18 @@ export const todaysDeals = [
         rating: 4.9,
         badge: { text: "New", color: "bg-primary-brand" },
         discount: "-40%"
+    },
+    {
+        id: 4,
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop",
+        title: "Nike Running Shoe",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
     }
+
 ];
 
 export const skinCareProducts = [
@@ -67,6 +78,11 @@ export const skinCareProducts = [
     },
     {
         id: 4,
+        image: "https://images.unsplash.com/photo-1571781535467-4c6c9a0b440e?q=80&w=1000&auto=format&fit=crop",
+        price: "NPR 5,999"
+    },
+    {
+        id: 5,
         image: "https://images.unsplash.com/photo-1571781535467-4c6c9a0b440e?q=80&w=1000&auto=format&fit=crop",
         price: "NPR 5,999"
     }

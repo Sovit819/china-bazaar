@@ -1,12 +1,12 @@
 export const heroBanners = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop",
         title: "Summer Sale"
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?q=80&w=1333&auto=format&fit=crop",
         title: "New Collection"
     },
     {
@@ -56,7 +56,87 @@ export const todaysDeals = [
         rating: 4.2,
         badge: { text: "New", color: "bg-primary-brand" },
         discount: "-40%"
-    }
+    },
+    {
+        id: 5,
+        image: "/product1.png",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 6,
+        image: "/product2.png",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 7,
+        image: "/product3.png",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 8,
+        image: "https://images.unsplash.com/photo-1673847401550-fd92f05614b9?q=80&w=1170&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 9,
+        image: "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?q=80&w=687&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 10,
+        image: "https://images.unsplash.com/photo-1620917669809-1af0497965de?q=80&w=687&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 11,
+        image: "https://images.unsplash.com/photo-1556228720-210aabb357b7?q=80&w=687&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
+    {
+        id: 12,
+        image: "https://images.unsplash.com/photo-1591130901921-3f0652bb3915?q=80&w=1170&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%"
+    },
 
 ];
 
@@ -153,3 +233,16 @@ export const complexGridBannerData = [
         altText: 'Flash Sale on Joystick',
     },
 ];
+
+export const productCategoryTabs = [
+    { key: 'best-deals', label: 'Best Deals' },
+    { key: 'new-arrivals', label: 'New Arrivals' },
+    { key: 'sports-outdoor', label: 'Sports Outdoor' },
+    { key: 'fashion-clothing', label: 'Fashion Clothing' },
+    { key: 'electronics', label: 'Electronics' },
+    { key: 'furnitures', label: 'Furnitures' },
+    { key: 'baby-products', label: 'Baby Products' },
+    { key: 'cosmetics', label: 'Cosmetics' },
+    { key: 'groceries', label: 'Groceries' },
+];
+

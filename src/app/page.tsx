@@ -3,6 +3,7 @@ import TodaysDealSection from "@/features/home/components/TodaysDealSection";
 import SkinCareSection from "@/features/home/components/SkinCareSection";
 import CategorySplitSection from "@/features/home/components/CategorySplitSection";
 import BannerBlock from "@/components/shared/BannerBlock";
+import ProductsByCategories from "@/features/home/components/ProductByCategories";
 
 import { singleLargeBannerData, twoVerticalSmallBannerData, complexGridBannerData } from "@/data/dummyData";
 
@@ -29,6 +30,8 @@ export default function Home() {
 
         </div>
         <BannerBlock banners={singleLargeBannerData} variant="single-large" className="mt-7.5 mb-7.5" />
+        <ProductsByCategories  />
+        <BannerBlock banners={complexGridBannerData} variant="complex-grid" className="mt-7.5 mb-7.5" />
       </div>
     </main>
   );

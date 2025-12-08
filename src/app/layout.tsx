@@ -3,6 +3,7 @@ import React from "react";
 
 import TopUtilityBar from "@/components/layout/TopUtilityBar";
 import MainHeader from "@/components/layout/MainHeader";
+import Footer from "@/components/layout/Footer";
 
 export const metadata = {
   title: "ChinaBazaar - Home",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <TopUtilityBar />
         <MainHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );

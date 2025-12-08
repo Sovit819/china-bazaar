@@ -103,3 +103,53 @@ export const beds = [
         price: "NPR 59,999"
     }
 ];
+
+
+// Banner data
+export const singleLargeBannerData = [
+    {
+        id: 101,
+        imageUrl: '/banner1.png',
+        linkUrl: '/summer-deals',
+        altText: 'Limited Time Summer Sale Banner',
+    },
+];
+
+export const twoVerticalSmallBannerData = [
+    {
+        id: 201,
+        imageUrl: '/banner1.png',
+        linkUrl: '/new-arrivals',
+        altText: 'New Arrivals Collection Banner',
+    },
+    {
+        id: 202,
+        imageUrl: '/banner1.png',
+        linkUrl: '/best-deals',
+        altText: 'Best Deals Collection Banner',
+    },
+];
+
+export const complexGridBannerData = [
+    {
+        id: 301,
+        // The main, large banner (614x415 ratio)
+        imageUrl: '/banner2.png',
+        linkUrl: '/featured-sneakers',
+        altText: 'Big Featured Sneakers Banner',
+    },
+    {
+        id: 302,
+        // The top-right small banner (614x202 ratio)
+        imageUrl: '/banner3.png',
+        linkUrl: '/flash-sale-watches',
+        altText: 'Flash Sale on Watches',
+    },
+    {
+        id: 303,
+        // The bottom-right small banner (614x202 ratio)
+        imageUrl: '/banner4.png',
+        linkUrl: '/flash-sale-joystick',
+        altText: 'Flash Sale on Joystick',
+    },
+];

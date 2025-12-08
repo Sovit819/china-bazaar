@@ -1,8 +1,8 @@
 import "./globals.css";
 import React from "react";
 
-import TopUtilityBar from "@/components/Header/TopUtilityBar";
-import MainHeader from "@/components/Header/MainHeader";
+import TopUtilityBar from "@/components/layout/TopUtilityBar";
+import MainHeader from "@/components/layout/MainHeader";
 
 export const metadata = {
   title: "ChinaBazaar - Home",

@@ -1,7 +1,7 @@
 "use client";
 
-import ProductSection from '@/components/Products/ProductSection';
-import ProductCard from '@/components/Products/ProductCard';
+import ProductSection from '@/components/ui/ProductSection';
+import ProductCard from '@/components/shared/ProductCard';
 import { skinCareProducts } from '@/data/dummyData';
 import { useProductPagination } from '@/hooks/useProductPagination';
 

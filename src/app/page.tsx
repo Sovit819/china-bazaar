@@ -1,7 +1,7 @@
-import HeroBanner from "@/components/Hero/HeroBanner";
-import TodaysDealSection from "@/components/Home/TodaysDealSection";
-import SkinCareSection from "@/components/Home/SkinCareSection";
-import CategorySplitSection from "@/components/Home/CategorySplitSection";
+import HeroBanner from "@/features/home/components/HeroBanner";
+import TodaysDealSection from "@/features/home/components/TodaysDealSection";
+import SkinCareSection from "@/features/home/components/SkinCareSection";
+import CategorySplitSection from "@/features/home/components/CategorySplitSection";
 
 export default function Home() {
   return (

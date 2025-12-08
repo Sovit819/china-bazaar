@@ -49,7 +49,7 @@ export const todaysDeals = [
     },
     {
         id: 4,
-        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=600&auto=format&fit=crop",
         title: "Nike Running Shoe",
         price: "NPR 9,999",
         oldPrice: "NPR 12,999",
@@ -63,27 +63,27 @@ export const todaysDeals = [
 export const skinCareProducts = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1598440947619-2c35fc9af908?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1673847401550-fd92f05614b9?q=80&w=1170&auto=format&fit=crop",
         price: "NPR 5,999"
     },
     {
         id: 2,
-        image: "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1611930021592-a8cfd5319ceb?q=80&w=687&auto=format&fit=crop",
         price: "NPR 5,999"
     },
     {
         id: 3,
-        image: "https://images.unsplash.com/photo-1556228720-1987bad219ec?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1620917669809-1af0497965de?q=80&w=687&auto=format&fit=crop",
         price: "NPR 5,999"
     },
     {
         id: 4,
-        image: "https://images.unsplash.com/photo-1571781535467-4c6c9a0b440e?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1556228720-210aabb357b7?q=80&w=687&auto=format&fit=crop",
         price: "NPR 5,999"
     },
     {
         id: 5,
-        image: "https://images.unsplash.com/photo-1571781535467-4c6c9a0b440e?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1591130901921-3f0652bb3915?q=80&w=1170&auto=format&fit=crop",
         price: "NPR 5,999"
     }
 ];
@@ -99,7 +99,7 @@ export const shoes = [
 export const beds = [
     {
         id: 1,
-        image: "https://images.unsplash.com/photo-1505693416388-b0346efee535?q=80&w=1000&auto=format&fit=crop",
+        image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1170&auto=format&fit=crop",
         price: "NPR 59,999"
     }
 ];

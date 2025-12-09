@@ -29,7 +29,7 @@ This is a Next.js-based e-commerce application frontend, featuring a responsive 
 
 ## 🛠 Tools & Libraries Used
 
-*   **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+*   **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
 *   **Language**: [TypeScript](https://www.typescriptlang.org/)
 *   **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 *   **Icons**: [Lucide React](https://lucide.dev/)
@@ -47,8 +47,9 @@ This is a Next.js-based e-commerce application frontend, featuring a responsive 
     *   The "Today's Deal" section on Desktop is designed as a focused card container rather than a full-width grid.
 
 ## 📸 Screenshots
-
-*(Screenshots of the application outputs will be added here upon completion)*
+<img width="1903" height="909" alt="Screenshot 2025-12-09 114350" src="https://github.com/user-attachments/assets/8e3fbdf2-dfe1-470d-9e62-f4b516d97e82" />
+<img width="1900" height="908" alt="Screenshot 2025-12-09 114421" src="https://github.com/user-attachments/assets/be919327-cac0-4d1d-a5cc-51caacfe00f6" />
+<img width="1899" height="715" alt="Screenshot 2025-12-09 114458" src="https://github.com/user-attachments/assets/2a201a46-a57a-4a26-9ce0-a1a815f9681f" />
 
 ---
 *Built for China Bazaar*

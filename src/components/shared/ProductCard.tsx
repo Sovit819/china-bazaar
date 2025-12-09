@@ -58,7 +58,7 @@ const ProductCard: React.FC<ProductProps> = ({
 
     return (
         <div
-            className={`relative group hover:shadow-md transition cursor-pointer bg-white rounded-2xl h-full flex flex-col overflow-hidden ${isOverlayVariant || isCompactDeal ? 'p-0' : 'p-2'}`}
+            className={`relative group hover:shadow-md transition cursor-pointer bg-white rounded-2xl h-full flex flex-col overflow-hidden ${isOverlayVariant || isCompactDeal ? 'p-0' : 'p-1'}`}
             onClick={handleClick}
         >
             {/* Badges Container (top-left) */}
@@ -86,7 +86,7 @@ const ProductCard: React.FC<ProductProps> = ({
             )}
 
             {/* Image Area */}
-            <div className={`relative w-full aspect-square ${isOverlayVariant ? 'mb-0' : 'mb-4 rounded-xl'} overflow-hidden bg-neutral-50 shrink-0`}>
+            <div className={`relative w-full aspect-square ${isOverlayVariant ? 'mb-0' : 'mb-4 rounded-[24px]'} overflow-hidden bg-neutral-50 shrink-0`}>
                 <Image
                     src={image}
                     alt={title || "Product"}

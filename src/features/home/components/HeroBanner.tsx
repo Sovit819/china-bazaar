@@ -1,11 +1,20 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react'; // 👈 Import useEffect
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { heroBanners } from '@/data/dummyData';
 
+const SLIDE_DURATION = 5000; // 5 seconds
+
 const HeroBanner: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
+
+    // Helper function to advance to the next slide, handling array loop
+    const nextSlide = () => {
+        setCurrentIndex((prevIndex) => 
+            prevIndex === heroBanners.length - 1 ? 0 : prevIndex + 1
+        );
+    };
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
@@ -13,15 +22,19 @@ const HeroBanner: React.FC = () => {
         setCurrentIndex(newIndex);
     };
 
-    const nextSlide = () => {
-        const isLastSlide = currentIndex === heroBanners.length - 1;
-        const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setCurrentIndex(newIndex);
-    };
-
     const goToSlide = (slideIndex: number) => {
         setCurrentIndex(slideIndex);
     };
+
+    // 🔄 Auto-slide implementation using useEffect and setInterval
+    useEffect(() => {
+        const interval = setInterval(() => {
+            nextSlide(); 
+        }, SLIDE_DURATION);
+
+        // Cleanup function to clear the interval when the component unmounts or state changes
+        return () => clearInterval(interval);
+    }, [currentIndex]); // 👈 Re-run effect/reset interval after manual interaction
 
     return (
         <div className="w-full h-[200px] md:h-[250px] lg:h-[233px] relative group bg-neutral-100">
@@ -47,7 +60,7 @@ const HeroBanner: React.FC = () => {
                     <div
                         key={slideIndex}
                         onClick={() => goToSlide(slideIndex)}
-                        className={`text-2xl cursor-pointer w-3 h-3 rounded-full transition-all ${currentIndex === slideIndex ? 'bg-primary-brand w-6' : 'bg-white/50'
+                        className={`text-2xl cursor-pointer w-2 h-2 rounded-full transition-all ${currentIndex === slideIndex ? 'bg-primary-brand w-6' : 'bg-white/50'
                             }`}
                     >
                     </div>

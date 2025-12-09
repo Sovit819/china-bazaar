@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-neutral-n50 border-t border-neutral-n100">
             {/* Top Description Section */}
             <div className="border-b border-neutral-n200">
-                <div className="max-w-7xl mx-[100px] px-4 py-6">
+                <div className="max-w-7xl mx-[20px] lg:mx-[100px] px-4 py-6">
                     <h3 className="text-body-medium font-medium mb-3">ChinaBazaar | E-commerce Bazaar</h3>
                     <p className="text-body-small text-neutral-n600 leading-relaxed">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -32,12 +32,12 @@ const Footer = () => {
             </div>
 
             {/* Main Footer Content */}
-            <div className="max-w-7xl mx-[100px] px-4 py-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10">
+            <div className="max-w-7xl mx-[20px] lg:mx-[100px] px-4 py-8">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-10">
                     {/* Company Info & Social */}
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2 mb-3">
-                            <Image src="/logo.png" alt="Logo" width={197} height={32} />
+                            <Image src="/Logo.png" alt="Logo" width={197} height={32} />
                         </div>
                         <p className="text-body-xs text-neutral-n600 mb-4">
                             Your destination for the products you love, all in one place
@@ -122,9 +122,9 @@ const Footer = () => {
                     <div>
                         <h4 className="text-body-medium font-medium text-neutral-n800 mb-6">Payment Methods</h4>
                         <div className="flex flex-wrap gap-2">
-                            <Image src="/esewa.png" alt="eSewa" width={70} height={40} className="object-contain" />
-                            <Image src="/khalti.png" alt="Khalti" width={70} height={40} className="object-contain" />
-                            <Image src="/cashondelivery.png" alt="Cash on Delivery" width={70} height={40} className="object-contain" />
+                            <Image src="/esewa.png" alt="eSewa" width={70} height={40} className="object-contain w-[70px] h-[40px] rounded-[10px]" />
+                            <Image src="/khalti.png" alt="Khalti" width={70} height={40} className="object-contain w-[70px] h-[40px] rounded-[10px]" />
+                            <Image src="/cashondelivery.png" alt="Cash on Delivery" width={70} height={40} className="object-contain w-[70px] h-[40px] rounded-[10px]" />
                         </div>
                     </div>
 

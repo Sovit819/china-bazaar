@@ -28,12 +28,12 @@ const TodaysDealSection = () => {
             titleClassName="text-h6 font-bold text-neutral-n800"
             arrowSize={36}
         >
-            <div className="grid grid-cols-2 lg:grid-cols-3 gap-0 h-full">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-1 h-full">
                 {visibleProducts.map((product, index) => (
                     <div
                         key={`${product.id}-${startIndex}-${index}`}
                         className={`
-                            ${index === 3 ? 'lg:hidden' : ''} 
+                            ${index === 3 ? 'md:hidden' : ''} 
                             h-full
                         `}
                     >

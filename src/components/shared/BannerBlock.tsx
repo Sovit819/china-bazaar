@@ -43,7 +43,7 @@ const BannerBlock: React.FC<BannerBlockProps> = ({ banners, variant, className =
             // Renders one banner of 614x262 (or similar full-width ratio)
             if (banners.length < 1) return null;
             return (
-                <div className={`aspect-[1240/262] w-full ${className}`}>
+                <div className={`aspect-[614/415] md:aspect-[1240/262] w-full ${className}`}>
                     {renderBanner(banners[0], 'h-full w-full rounded-[52px]')}
                 </div>
             );

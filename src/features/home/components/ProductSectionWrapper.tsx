@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 interface ProductSectionWrapperProps {
     title?: string;
+    subTitle?: string;
     viewAllLink?: string;
     children: React.ReactNode;
     tabs?: { label: string; isActive: boolean; onClick: () => void }[];
@@ -10,6 +11,7 @@ interface ProductSectionWrapperProps {
 
 const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
     title,
+    subTitle,
     viewAllLink,
     children,
     tabs,
@@ -28,14 +30,19 @@ const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
 
                         {/* Title */}
                         {title && (
-                            <h2 className="text-body-xs font-book text-neutral-n600">{title}</h2>
+                            <h2 className="text-subtitle01 font-bold text-neutral-n800">{title}</h2>
+                        )}
+
+                        {/* SubTitle */}
+                        {subTitle && (
+                            <p className="text-body-xs font-book text-neutral-n500">{subTitle}</p>
                         )}
 
                         {/* Tabs */}
                         {tabs && (
                             // Tabs are horizontally scrollable on small screens, full width up to medium breakpoint
                             <div className={`flex gap-4 overflow-x-auto whitespace-nowrap pb-1 
-                                ${title ? 'mt-3' : 'mt-0'} 
+                                ${title || subTitle ? 'mt-3' : 'mt-0'} 
                                 w-full md:w-auto`}>
                                 {tabs.map(tab => (
                                     <button

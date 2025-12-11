@@ -246,3 +246,90 @@ export const productCategoryTabs = [
     { key: 'groceries', label: 'Groceries' },
 ];
 
+export const flashDealProducts = [
+    {
+        id: 1,
+        image: "https://images.unsplash.com/photo-1670615119585-3585bc6a0fc6?q=80&w=696&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+        statusBadge: { text: "Limited Stock", color: "bg-[#F4CF101A]" }
+    },
+    {
+        id: 2,
+        image: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=687&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+    },
+    {
+        id: 3,
+        image: "https://images.unsplash.com/photo-1589128777073-263566ae5e4d?q=80&w=687&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+    },
+    {
+        id: 4,
+        image: "https://images.unsplash.com/photo-1629224316810-9d8805b95e76?q=80&w=1170&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+        statusBadge: { text: "Limited Stock", color: "bg-[#F4CF101A]" }
+    },
+    {
+        id: 5,
+        image: "https://images.unsplash.com/photo-1613151848917-80e67f421fff?q=80&w=687&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+    },
+    {
+        id: 6,
+        image: "https://images.unsplash.com/photo-1560828343-a0b3d8864d1b?q=80&w=617&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+        statusBadge: { text: "Limited Stock", color: "bg-[#F4CF101A]" }
+    },
+    {
+        id: 7,
+        image: "https://images.unsplash.com/photo-1622398925373-3f91b1e275f5?q=80&w=2074&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+    },
+    {
+        id: 8,
+        image: "https://images.unsplash.com/photo-1543508282-6319a3e2621f?q=80&w=715&auto=format&fit=crop",
+        title: "Classic Old-School Black Sneakers Low top Shoes",
+        price: "NPR 9,999",
+        oldPrice: "NPR 12,999",
+        rating: 4.2,
+        badge: { text: "New", color: "bg-primary-brand" },
+        discount: "-40%",
+        statusBadge: { text: "Limited Stock", color: "bg-[#F4CF101A]" }
+    },
+]
+

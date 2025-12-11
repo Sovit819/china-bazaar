@@ -6,6 +6,8 @@ import BannerBlock from "@/components/shared/BannerBlock";
 import ProductsByCategories from "@/features/home/components/ProductByCategories";
 
 import { singleLargeBannerData, twoVerticalSmallBannerData, complexGridBannerData } from "@/data/dummyData";
+import FlashDealSection from "@/features/home/components/FlashDealSection";
+import SpecialDealSection from "@/features/home/components/SpecialDealSection";
 
 export default function Home() {
   return (
@@ -32,6 +34,9 @@ export default function Home() {
         <BannerBlock banners={singleLargeBannerData} variant="single-large" className="mt-7.5 mb-7.5" />
         <ProductsByCategories  />
         <BannerBlock banners={complexGridBannerData} variant="complex-grid" className="mt-7.5 mb-7.5" />
+        <FlashDealSection />
+        <BannerBlock banners={twoVerticalSmallBannerData} variant="two-vertical-small" className="mt-7.5 mb-7.5" />
+        <SpecialDealSection />
       </div>
     </main>
   );

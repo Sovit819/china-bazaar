@@ -118,21 +118,21 @@ const ProductCard: React.FC<ProductProps> = ({
                     {/* --- Price and Old Price Row Logic --- */}
                     {isCompactDeal ? (
                         // 💡 COMPACT-DEAL: Price and Old Price in the same row
-                        <div className="flex items-center gap-2 mt-auto pt-2">
-                            <span className="text-primary-brand font-bold text-lg">{price}</span>
+                        <div className="flex justify-between items-center gap-2 mt-auto pt-2">
+                            <span className="text-primary-brand font-medium text-body-large">{price}</span>
                             {oldPrice && (
-                                <span className="text-neutral-n400 text-sm line-through decoration-1">{oldPrice}</span>
+                                <span className="text-neutral-n400 text-body-xs font-book line-through decoration-1 mr-4">{oldPrice}</span>
                             )}
                         </div>
                     ) : (
                         // DEFAULT: Price and Old Price in separate rows
                         <>
                             <div className="flex items-center gap-2 mt-auto pt-2">
-                                <span className="text-primary-brand font-bold text-lg">{price}</span>
+                                <span className="text-primary-brand font-medium text-body-large">{price}</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 {oldPrice && (
-                                    <span className="text-neutral-n400 text-sm line-through decoration-1">{oldPrice}</span>
+                                    <span className="text-neutral-n400 text-body-small font-book line-through decoration-1">{oldPrice}</span>
                                 )}
                             </div>
                         </>
@@ -151,7 +151,7 @@ const ProductCard: React.FC<ProductProps> = ({
                             
                             {/* 💡 Status Badge (Limited Stock) */}
                             {statusBadge && (
-                                <div className={`text-xs font-semibold px-2 py-0.5 rounded-full whitespace-nowrap ${statusBadge.color}`}>
+                                <div className={`text-[10px] font-medium text-secondary-brand px-2 py-0.5 rounded-full whitespace-nowrap ${statusBadge.color}`}>
                                     {statusBadge.text}
                                 </div>
                             )}

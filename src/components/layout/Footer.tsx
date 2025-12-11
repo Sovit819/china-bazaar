@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-neutral-n50 border-t border-neutral-n100">
+        <footer className="bg-neutral-n50 border-t border-neutral-n100 mt-[100px]">
             {/* Top Description Section */}
             <div className="border-b border-neutral-n200">
                 <div className="max-w-7xl mx-[20px] lg:mx-[100px] px-4 py-6">

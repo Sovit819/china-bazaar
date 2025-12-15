@@ -34,7 +34,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                     <div className="flex gap-2">
                         <button
                             onClick={onPrev}
-                            className="rounded-full border border-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-neutral-50 transition active:scale-95 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                            className="rounded-full border border-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-primary-brand hover:text-white transition active:scale-95 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                             style={{ width: arrowSize, height: arrowSize }}
                             disabled={!onPrev}
                         >
@@ -42,7 +42,7 @@ const ProductSection: React.FC<ProductSectionProps> = ({
                         </button>
                         <button
                             onClick={onNext}
-                            className="rounded-full border border-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-neutral-50 transition active:scale-95 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
+                            className="rounded-full border border-neutral-200 flex items-center justify-center text-neutral-500 hover:bg-primary-brand hover:text-white transition active:scale-95 disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed"
                             style={{ width: arrowSize, height: arrowSize }}
                             disabled={!onNext}
                         >

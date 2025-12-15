@@ -235,15 +235,15 @@ export const complexGridBannerData = [
 ];
 
 export const productCategoryTabs = [
-    { key: 'best-deals', label: 'Best Deals' },
-    { key: 'new-arrivals', label: 'New Arrivals' },
-    { key: 'sports-outdoor', label: 'Sports Outdoor' },
-    { key: 'fashion-clothing', label: 'Fashion Clothing' },
-    { key: 'electronics', label: 'Electronics' },
-    { key: 'furnitures', label: 'Furnitures' },
-    { key: 'baby-products', label: 'Baby Products' },
-    { key: 'cosmetics', label: 'Cosmetics' },
-    { key: 'groceries', label: 'Groceries' },
+    { key: 'best-deals', label: 'Best Deals', icon: '/price.svg' },
+    { key: 'new-arrivals', label: 'New Arrivals', icon: '/new-arrival.svg' },
+    { key: 'sports-outdoor', label: 'Sports Outdoor', icon: '/sports-tennis.svg' },
+    { key: 'fashion-clothing', label: 'Fashion Clothing', icon: '/fashion-accessories.svg' },
+    { key: 'electronics', label: 'Electronics', icon: '/electronic.svg' },
+    { key: 'furnitures', label: 'Furnitures', icon: '/furnitures.svg' },
+    { key: 'baby-products', label: 'Baby Products', icon: '/baby-product.svg' },
+    { key: 'cosmetics', label: 'Cosmetics', icon: '/cosmetic.svg' },
+    { key: 'groceries', label: 'Groceries', icon: '/groceries.svg' },
 ];
 
 export const flashDealProducts = [

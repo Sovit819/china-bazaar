@@ -6,7 +6,7 @@ interface ProductSectionWrapperProps {
     subTitle?: string;
     viewAllLink?: string;
     children: React.ReactNode;
-    tabs?: { label: string; isActive: boolean; onClick: () => void }[];
+    tabs?: { label: string; icon?: string; isActive: boolean; onClick: () => void }[];
 }
 
 const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
@@ -23,7 +23,7 @@ const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
 
             {/* --- Section Header (Title, Tabs, View All) --- */}
             {showHeader && (
-                <div className="flex justify-between items-end mb-6 flex-wrap">
+                <div className="flex justify-between items-center mb-6 flex-wrap">
 
                     {/* Left Side: Title and Tabs Container */}
                     <div className="flex flex-col min-w-0 flex-grow-0">
@@ -49,14 +49,18 @@ const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
                                         key={tab.label}
                                         onClick={tab.onClick}
                                         className={`
-                                            text-sm font-medium py-1 px-3 rounded-full transition 
+                                            text-body-small font-medium py-2.5 px-4 rounded-[1000px]
+                                            flex items-center 
                                             flex-shrink-0
                                             ${tab.isActive
-                                                ? 'bg-primary-brand text-white font-medium shadow-md'
+                                                ? 'bg-[#7C8BFF14] text-primary-brand font-medium'
                                                 : 'text-neutral-n600 hover:bg-neutral-50'
                                             }
                                         `}
                                     >
+                                        {tab.icon && (
+                                            <img src={tab.icon} alt={tab.label} className="w-4 h-4 mr-1" />
+                                        )}
                                         {tab.label}
                                     </button>
                                 ))}
@@ -67,7 +71,7 @@ const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
                     {/* Right Side: View All Link */}
                     {viewAllLink && (
                         <div className="flex-shrink-0 ml-4">
-                            <Link href={viewAllLink} className="text-body-xs font-medium text-secondary-brand hover:underline">
+                            <Link href={viewAllLink} className="text-body-small font-medium text-secondary-brand hover:underline">
                                 View All
                             </Link>
                         </div>

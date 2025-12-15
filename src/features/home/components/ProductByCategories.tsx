@@ -15,6 +15,7 @@ const ProductsByCategories: React.FC = () => {
     
     // 2. Prepare the interactive tabs data for the ProductSectionWrapper
     const interactiveTabs = productCategoryTabs.map(tab => ({
+        icon: tab.icon,
         label: tab.label,
         // Check if the current tab's key matches the state
         isActive: tab.key === activeTabKey,

@@ -32,7 +32,7 @@ export default function Home() {
 
         </div>
         <BannerBlock banners={singleLargeBannerData} variant="single-large" className="mt-7.5 mb-7.5" />
-        <ProductsByCategories  />
+        <ProductsByCategories />
         <BannerBlock banners={complexGridBannerData} variant="complex-grid" className="mt-7.5 mb-7.5" />
         <FlashDealSection />
         <BannerBlock banners={twoVerticalSmallBannerData} variant="two-vertical-small" className="mt-7.5 mb-7.5" />

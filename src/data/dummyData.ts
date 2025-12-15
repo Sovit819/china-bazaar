@@ -333,3 +333,46 @@ export const flashDealProducts = [
     },
 ]
 
+
+export const liveSellData = [
+    {
+        id: 1,
+        thumbnail: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1000&auto=format&fit=crop",
+        title: "Fashion Try-On Live",
+        description: "Live product demo + special bundle w...",
+        viewerCount: "4.8K",
+        hostAvatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop"
+    },
+    {
+        id: 2,
+        thumbnail: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop",
+        title: "Fashion Try-On Live",
+        description: "Live product demo + special bundle w...",
+        viewerCount: "4.8K",
+        hostAvatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=100&auto=format&fit=crop"
+    },
+    {
+        id: 3,
+        thumbnail: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop",
+        title: "Fashion Try-On Live",
+        description: "Live product demo + special bundle w...",
+        viewerCount: "4.8K",
+        hostAvatar: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=100&auto=format&fit=crop"
+    },
+    {
+        id: 4,
+        thumbnail: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop",
+        title: "Tech Talk Live",
+        description: "Live product demo + special bundle w...",
+        viewerCount: "4.8K",
+        hostAvatar: "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=100&auto=format&fit=crop"
+    },
+    {
+        id: 5,
+        thumbnail: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop",
+        title: "Tech Talk Live",
+        description: "Live product demo + special bundle w...",
+        viewerCount: "4.8K",
+        hostAvatar: "https://images.unsplash.com/photo-1552058544-f2b08422138a?q=80&w=100&auto=format&fit=crop"
+    }
+];

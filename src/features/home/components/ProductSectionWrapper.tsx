@@ -7,6 +7,7 @@ interface ProductSectionWrapperProps {
     viewAllLink?: string;
     children: React.ReactNode;
     tabs?: { label: string; icon?: string; isActive: boolean; onClick: () => void }[];
+    disableGrid?: boolean;
 }
 
 const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
@@ -15,6 +16,7 @@ const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
     viewAllLink,
     children,
     tabs,
+    disableGrid = false,
 }) => {
     const showHeader = title || viewAllLink || tabs;
 
@@ -79,10 +81,14 @@ const ProductSectionWrapper: React.FC<ProductSectionWrapperProps> = ({
                 </div>
             )}
 
-            {/* --- Section Content (The Product Grid) --- */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
-                {children}
-            </div>
+            {/* --- Section Content (The Product Grid or Custom Layout) --- */}
+            {disableGrid ? (
+                children
+            ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+                    {children}
+                </div>
+            )}
         </section>
     );
 };
